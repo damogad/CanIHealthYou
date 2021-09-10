@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- MEDICATION -->
+    <dimen name="medication_name_size">24sp</dimen>
+    <dimen name="medication_description_size">16sp</dimen>
+    <!-- PEDOMETER -->
+    <dimen name="steps_text_size">20sp</dimen>
+    <dimen name="number_steps_size">60sp</dimen>
+
+    <dimen name="smallAppearanceTitle">18sp</dimen>
+    <dimen name="smallAppearanceText">10sp</dimen>
+    <dimen name="smallAppearanceButton">8sp</dimen>
+
+    <dimen name="mediumAppearanceTitle">24sp</dimen>
+    <dimen name="mediumAppearanceText">16sp</dimen>
+    <dimen name="mediumAppearanceButton">14sp</dimen>
+
+    <dimen name="largeAppearanceTitle">30sp</dimen>
+    <dimen name="largeAppearanceText">22sp</dimen>
+    <dimen name="largeAppearanceButton">20sp</dimen>
+
+</resources>

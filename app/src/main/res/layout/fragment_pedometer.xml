@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?backgroundColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    tools:context=".PedometerFragment">
+
+
+    <TextView
+        android:id="@+id/steps_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textSize="@dimen/steps_text_size"
+        android:textColor="?textColor"
+        android:text="@string/Pedometer_StepText" />
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/circularProgressBar"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:cpb_background_progressbar_color="#b6bbd8"
+        app:cpb_background_progressbar_width="10dp"
+        app:cpb_progress_direction="to_right"
+        app:cpb_progressbar_color="?attr/colorPrimaryDark"
+        app:cpb_progressbar_width="15dp"
+        app:cpb_round_border="true"
+        app:cpb_progress_max="1000"/>
+    <TextView
+        android:id="@+id/number_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/steps_text"
+        android:textStyle="bold"
+        android:textSize="@dimen/number_steps_size"
+        android:textColor="?textColor"
+        tools:text="0"/>
+    <TextView
+        android:id="@+id/textview_lastreboot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="?textAppearanceText"
+        android:textColor="?textColor"
+        android:padding="32dp"
+        android:layout_below="@id/number_steps"
+        android:layout_marginTop="64dp"/>
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btn_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:textSize="?textAppearanceText"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textview_lastreboot"
+        fancy:fb_borderColor="#000000"
+        fancy:fb_borderWidth="6dp"
+        fancy:fb_defaultColor="?attr/colorPrimaryDark"
+        fancy:fb_focusColor="?attr/colorPrimary"
+        fancy:fb_radius="20dp"
+        fancy:fb_text="@string/Pedometer_ChangeHeight"
+        fancy:fb_textColor="#FFFFFF" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edittextlayout_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_below="@id/btn_height"
+        android:layout_marginTop="24dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edittext_height"
+            android:hint="@string/Pedometer_HintHeight"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_height"
+        android:layout_toRightOf="@id/edittextlayout_height"
+        android:text=""
+        fancy:fb_iconPaddingLeft="0dp"
+        fancy:fb_iconPaddingRight="0dp"
+        fancy:fb_iconResource="@drawable/ic_save_black_48dp"
+        fancy:fb_borderColor="#000000"
+        fancy:fb_borderWidth="2dp"
+        fancy:fb_defaultColor="?attr/colorAccent"
+        fancy:fb_focusColor="?attr/colorPrimary"
+        fancy:fb_radius="20dp" />
+
+</RelativeLayout>

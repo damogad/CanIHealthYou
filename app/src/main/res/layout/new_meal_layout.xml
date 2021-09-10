@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/meal_spinner_layout">
+        <Spinner
+            android:hapticFeedbackEnabled="true"
+            android:id="@+id/meal_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:hapticFeedbackEnabled="true"
+                android:id="@+id/select_recipe_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/NewMeal_SelectRecipeButton"
+                android:textSize="?textAppearanceButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:hapticFeedbackEnabled="true"
+        android:id="@+id/meal_description_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/NewMeal_Description">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:hapticFeedbackEnabled="true"
+            android:id="@+id/meal_description_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:textSize="?textAppearanceText"
+            android:textColor="?textColor"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+</LinearLayout>

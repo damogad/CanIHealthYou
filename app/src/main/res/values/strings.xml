@@ -1,0 +1,275 @@
+<resources>
+
+    <string name="nutrition">Nutrition</string>
+    <string name="menstrual_cycle">Menstrual cycle</string>
+    <string name="medication">Medication</string>
+    <string name="memory">Memory</string>
+    <string name="pedometer">Pedometer</string>
+    <string name="heart_rate">Heart rate</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+
+    <!-- dialog buttons -->
+    <string name="dialog_cancel">cancel</string>
+    <string name="dialog_add">add</string>
+    <string name="dialog_confirm">confirm</string>
+
+    <!-- settings -->
+    <string name="language_settings_title">Change language</string>
+    <string name="english_card">English</string>
+    <string name="spanish_card">Español</string>
+    <string name="font_size_message">Font size saved successfully to</string>
+    <string name="font_size_settings_title">Change font size</string>
+    <string name="placeholder_title">Title placeholder</string>
+    <string name="placeholder_text">Lore ipsum blablablablablabla</string>
+    <string name="placeholder_button">OK</string>
+    <string name="small_text_seekbar">SMALL</string>
+    <string name="medium_text_seekbar">MEDIUM</string>
+    <string name="large_text_seekbar">LARGE</string>
+    <string name="contrast_settings_title">Change contrast</string>
+    <string name="theme_settings_title">Change color theme</string>
+    <string name="fix_contrast">Fix high contrast</string>
+    <string name="vibration">Enable haptic feedback</string>
+    <string name="sound">Enable sound feedback</string>
+    <string name="automatic_speech_recognition">Automatic speech recognition</string>
+    <!-- About -->
+
+    <!-- Main -->
+    <string name="Main_Title">Can I Health You?</string>
+    <string name="Main_NutritionCard">Nutrition</string>
+    <string name="Main_MenstrualCard">Menstrual Cycle</string>
+    <string name="Main_MedicationCard">Medication</string>
+    <string name="Main_MemoryCard">Memory</string>
+    <string name="Main_PedometerCard">Pedometer</string>
+    <string name="Main_HeartRateCard">Heart rate</string>
+
+    <!-- nutrition -->
+    <string name="Nutrition_Diet">Diet</string>
+    <string name="Nutrition_Recipes">Recipes</string>
+
+    <!-- diet (Calendar fragment) -->
+    <string name="Calendar_AddButton">Add meal</string>
+    <string name="Calendar_Error">Cannot insert the same meal</string>
+    <string name="Calendar_SnackbarText">Item deleted successfully</string>
+    <string name="Calendar_SnackbarUndo">UNDO</string>
+
+    <!-- new meal dialog -->
+    <string name="NewMeal_Title">Add meal</string>
+    <string name="NewMeal_TitleEdit">Edit meal</string>
+    <string name="NewMeal_Description">Description</string>
+    <string name="NewMeal_ErrorDescription">Please, introduce something in the description</string>
+    <string name="NewMeal_SelectRecipeButton">Select recipe</string>
+    <string name="NewMeal_ErrorDescriptionNoChange">You haven\'t done any change</string>
+
+    <!-- select recipe dialog -->
+    <string name="SelectRecipeDialog_Title">Select recipe</string>
+
+    <!-- recipes -->
+    <string name="Recipes_SnackbarText">Recipe deleted successfully</string>
+    <string name="Recipes_SnackbarUndo">UNDO</string>
+    <string name="Recipes_ApproxTime">Approx. time:</string>
+    <string name="Recipes_Paella_Name">Paella</string>
+    <string name="Recipes_Paella_ApproxTime">1h 15min</string>
+    <string name="Recipes_Lentils_Name">Lentils</string>
+    <string name="Recipes_Lentils_ApproxTime">50min</string>
+    <string name="Recipes_SpongeCake_Name">Sponge cake</string>
+    <string name="Recipes_SpongeCake_ApproxTime">1h</string>
+    <string name="Recipes_SearchHint">Search recipe&#8230;</string>
+    <string name="Recipes_ImportRecipe">Import recipe</string>
+    <string name="Recipes_AddRecipe">Add recipe</string>
+
+
+    <!-- recipe details ACTIVITY -->
+    <string name="RecipeDetails_ActivityTitle">Recipe details</string>
+    <string name="RecipeDetails_IngredientsTitle">Required ingredients</string>
+    <string name="RecipeDetails_StepsTitle">STEPS</string>
+    <string name="Ingredient_Gram">gram</string>
+    <string name="Ingredient_Unit">unit</string>
+    <string name="Ingredient_Milliliter">milliliter</string>
+    <string name="Ingredient_Grams">grams</string>
+    <string name="Ingredient_Units">units</string>
+    <string name="Ingredient_Milliliters">milliliters</string>
+    <string name="Step_Seconds">sec</string>
+    <string name="Step_CannotPlayUntilCheckedIngredients">Cannot play the steps until all ingredients are checked</string>
+    <string name="Step_PreviousNotAllowed">You cannot skip to the previous step, as this is the first one</string>
+    <string name="Step_NextNotAllowed">You cannot skip to the next step, as this is the last one</string>
+
+    <!-- tts settings dialog -->
+    <string name="TTS_Settings_Title">Adjust Text-To-Speech parameters</string>
+    <string name="TTS_Settings_Pitch">PITCH</string>
+    <string name="TTS_Settings_Speed">SPEED</string>
+    <string name="TTS_Settings_PlaceholderText">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</string>
+    <string name="TTS_Settings_Button">Try&#8230;</string>
+
+    <!-- medication -->
+    <string name="Medication_Quantity">QUANTITY</string>
+    <string name="Medication_Schedule">SCHEDULE</string>
+    <string name="Medication_Pill">PILL</string>
+    <string name="Medication_Effervescent">EFFERVESCENT</string>
+    <string name="Medication_PowderPacket">POWDER PACKET</string>
+    <string name="ibuprofeno_name">Ibuprofen</string>
+    <string name="ibuprofeno_description">Reduces the inflammation</string>
+    <string name="paracetamol_name">Paracetamol</string>
+    <string name="paracetamol_description">Lowers fever and decreases pain</string>
+    <string name="aspirin_name">Aspirin</string>
+    <string name="aspirin_description">Pain reliever for minor aches and pains and to reduce fever. It is also an anti-inflammatory drug and can be used as a blood thinner.</string>
+    <string name="Medication_notification_take">Take</string>
+    <string name="Medication_ErrorMessage">That medication already exists!</string>
+    <string name="Medication_NotificationCreated">Created daily notifications!</string>
+    <string name="Medication_NotificationRemoved">Notifications have been disabled</string>
+    <string name="Medication_NotificationsEnabled">Enable notifications</string>
+    <string name="Medication_NotificationDisabled">Disable notifications</string>
+    <string name="Medication_AddMedication">Add medication</string>
+    <string name="Medication_NotificationsAlreadyEnabled">Notifications have already been enabled</string>
+    <string name="Medication_NotificationsAlreadyDisabled">Notifications have already been disabled</string>
+    <string name="of">of</string>
+    <string name="at">at</string>
+    <string name="Medication_NotificationsEnabledTextView">NOTIFICATIONS ENABLED</string>
+
+    <!-- remove medication dialog -->
+    <string name="RemoveMedication_Title">Remove medication</string>
+    <string name="RemoveMedication_Message">You are about to remove the medication. Are you sure?</string>
+
+    <!-- new_medication -->
+    <string name="NewMedication_Title">Add medication</string>
+    <string name="NewMedication_Name">Name</string>
+    <string name="NewMedication_Description">Description</string>
+    <string name="NewMedication_PillRadioButton">PILL</string>
+    <string name="NewMedication_EffervescentRadioButton">EFFERVESCENT</string>
+    <string name="NewMedication_PowderPacketRadioButton">POWDER PACKET</string>
+    <string name="NewMedication_ErrorSchedule">"Please, select at least one hour as the schedule"</string>
+    <string name="NewMedication_NameMandatory">Name is mandatory</string>
+    <string name="NewMedication_RepeatedHour">You cannot insert the same time more than once</string>
+
+    <!-- memory -->
+    <string name="Memory_Up">UP</string>
+    <string name="Memory_Down">DOWN</string>
+    <string name="Memory_Left">LEFT</string>
+    <string name="Memory_Right">RIGHT</string>
+
+    <!-- pedometer -->
+    <string name="Pedometer_ErrorDialog">Step sensor not found. Pedometer cannot be launched.</string>
+    <string name="Pedometer_StepText">Steps:</string>
+    <string name="Pedometer_StepsLastReboot">This is the number of steps walked since the last reboot</string>
+    <string name="Pedometer_StepsLastReboot2">Hence, according to your height</string>
+    <string name="Pedometer_StepsLastReboot3">you have walked</string>
+    <string name="Pedometer_StepsLastReboot4">That\'s an average of</string>
+    <string name="Pedometer_StepsLastReboot5">per day.</string>
+    <string name="Pedometer_ChangeHeight">CHANGE HEIGHT</string>
+    <string name="Pedometer_HintHeight">Introduce your height in cm</string>
+    <string name="Pedometer_IntegerError">Please, introduce an integer number</string>
+    <string name="Pedometer_EmptyError">Please, introduce a number</string>
+    <string name="Pedometer_HeightChanged">Your height has been changed to</string>
+
+    <!-- heart rate -->
+    <string name="HeartRate_BPM">HEART RATE (BPM)</string>
+    <string name="HeartRate_FingerMessage">Please, place your finger on both the camera and the flash</string>
+
+    <!-- draw_menu.xml -->
+    <string name="drawMenu_Nutrition">Nutrition</string>
+    <string name="drawMenu_MenstrualCycle">Menstrual Cycle</string>
+    <string name="drawMenu_Medication">Medication</string>
+    <string name="drawMenu_Memory">Memory</string>
+    <string name="drawMenu_Pedometer">Pedometer</string>
+    <string name="drawMenu_HeartRate">Heart Rate</string>
+    <string name="drawMenu_Settings">Settings</string>
+    <string name="drawMenu_About">About</string>
+
+    <string name="paella_ingredient1" translatable="false">Olive oil</string>
+    <string name="paella_ingredient2" translatable="false">Paprika</string>
+    <string name="paella_ingredient3" translatable="false">Dried oregano</string>
+    <string name="paella_ingredient4" translatable="false">Boneless chiccken breats</string>
+    <string name="paella_ingredient5" translatable="false">Garlic</string>
+    <string name="paella_ingredient6" translatable="false">Crushed red pepper</string>
+    <string name="paella_ingredient7" translatable="false">Rice</string>
+    <string name="paella_ingredient8" translatable="false">Saffron threads</string>
+    <string name="paella_ingredient9" translatable="false">Bay leafs</string>
+    <string name="paella_ingredient10" translatable="false">Lemon</string>
+    <string name="paella_ingredient11" translatable="false">Onion</string>
+
+    <string name="paella_step1" translatable="false">In a medium bowl, mix together 2 tablespoons olive oil, paprika, oregano, salt and pepper.</string>
+    <string name="paella_step2" translatable="false">Heat 2 tablespoons olive oil in a large skillet or paella pan over medium heat. Stir in garlic, red pepper, and rice. Cook, stirring, to coat rice with oil, about 3 minutes.</string>
+    <string name="paella_step3" translatable="false">Stir in saffron threads, bay leaf, garlic, chicken stock, and lemon zest. Bring to a boil, cover, and reduce heat to medium low. Simmer 20 minutes.</string>
+    <string name="paella_step4" translatable="false">Meanwhile, heat 2 tablespoons olive oil in a separate skillet over medium heat. Stir in marinated chicken and onion and cook 5 minutes.</string>
+    <string name="paella_step5" translatable="false">Spread rice onto a serving tray. Top with meat mixture.</string>
+
+    <string name="lentils_ingredient1" translatable="false">Fried tomato</string>
+    <string name="lentils_ingredient2" translatable="false">Uncooked celery</string>
+    <string name="lentils_ingredient3" translatable="false">Green pepeer</string>
+    <string name="lentils_ingredient4" translatable="false">Carrot</string>
+    <string name="lentils_ingredient5" translatable="false">Green bean</string>
+    <string name="lentils_ingredient6" translatable="false">Olive oil</string>
+    <string name="lentils_ingredient7" translatable="false">Bay leafs</string>
+    <string name="lentils_ingredient8" translatable="false">Garlic</string>
+    <string name="lentils_ingredient9" translatable="false">Pumpkin</string>
+    <string name="lentils_ingredient10" translatable="false">Uncooked courgette</string>
+    <string name="lentils_ingredient11" translatable="false">Potatoes</string>
+    <string name="lentils_ingredient12" translatable="false">Tomato</string>
+    <string name="lentils_ingredient13" translatable="false">Lentils</string>
+    <string name="lentils_ingredient14" translatable="false">Onion</string>
+    <string name="lentils_ingredient15" translatable="false">Cumin powder</string>
+    <string name="lentils_ingredient16" translatable="false">Sweet paprika</string>
+
+    <string name="lentils_step1" translatable="false">Soak the lentils an hour before.</string>
+    <string name="lentils_step2" translatable="false">We turn to stir fry. Chop the vegetables to our liking and cook it with a little olive oil until they are soft.</string>
+    <string name="lentils_step3" translatable="false">Add the lentils to the stir-fry together with a roasted garlic head, bay leaf and water and cook for about an hour at medium heat.</string>
+    <string name="lentils_step4" translatable="false">Finally, add fried tomato, salt and pepper and add cumin powder and some sweet paprika.</string>
+
+    <string name="spongeCake_ingredient1" translatable="false">Butter</string>
+    <string name="spongeCake_ingredient2" translatable="false">Sugar</string>
+    <string name="spongeCake_ingredient3" translatable="false">Eggs</string>
+    <string name="spongeCake_ingredient4" translatable="false">Lemon</string>
+    <string name="spongeCake_ingredient5" translatable="false">Vanilla extract</string>
+    <string name="spongeCake_ingredient6" translatable="false">Flour</string>
+    <string name="spongeCake_ingredient7" translatable="false">Milk</string>
+    <string name="spongeCake_ingredient8" translatable="false">Icing sugar</string>
+
+    <string name="spongeCake_step1" translatable="false">Heat oven to 180ºC/160ºC fan/gas 4, butter and line the base of two 20cm spring-form cake tins with baking parchment.</string>
+    <string name="spongeCake_step2" translatable="false">Using an electric whisk beat the butter and sugar together until pale and fluffy. Crack the eggs in one at a time and whisk well, scraping down the sides of the bowl after each addition. Add the lemon zest, vanilla, flour, milk and a pinch of salt. Whisk until just combined then divide the mixture between the two tins.</string>
+    <string name="spongeCake_step3" translatable="false">Bake in the centre of the oven for 25-30 mins until a skewer inserted into the middle of each cake comes out clean. After 10 mins remove the cakes from their tins and leave to cool completely on a wire rack. Fill how you like. My personal favourite is a good dollop of lemon curd and some fresh cream, then dust the top with icing sugar. Will keep for 3 days.</string>
+
+    <!-- QR SCANNER ACTIVITY -->
+    <string name="qrscanner">Import recipe with QR code</string>
+    <string name="Recipes_qrscanner_error">Error when importing recipe</string>
+    <string name="Recipes_AlreadyExisting">There\'s already a recipe with the same name</string>
+    <string name="Recipes_Added">New recipe added!</string>
+
+    <!-- QR EXPORT ACTIVITY -->
+    <string name="qrexport">Share recipe with QR code</string>
+
+    <string name="message_beaming_complete" translatable="false">Beaming complete</string>
+    <string name="hint_your_message" translatable="false">Your message</string>
+    <string name="label_your_message">Outgoing NFC message:</string>
+    <string name="title_btn_set">Send recipe</string>
+    <string name="NFC_Sender_Title">Share recipe with NFC</string>
+    <string name="NFC_Put_Phone">Put your phone close to the one you want to send the recipe to</string>
+    <string name="NFC_NotSupported">NFC is not supported on this device</string>
+    <string name="NFC_NotEnabled">NFC disabled on this device. Turn on to proceed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="breakfast">Breakfast</string>
+    <string name="snack">Snack</string>
+    <string name="lunch">Lunch</string>
+    <string name="afternoon_tea">Afternoon tea</string>
+    <string name="dinner">Dinner</string>
+
+    <string-array name="meal_type">
+        <item>@string/breakfast</item>
+        <item>@string/snack</item>
+        <item>@string/lunch</item>
+        <item>@string/afternoon_tea</item>
+        <item>@string/dinner</item>
+    </string-array>
+    <string name="app_name">Can I Health You?</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/nav_section1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nutrition"
+            android:icon="@drawable/ic_nutrition"
+            android:title="@string/nutrition" />
+        <item
+            android:id="@+id/nav_menstrual_cycle"
+            android:icon="@drawable/ic_menstrual_cycle"
+            android:title="@string/menstrual_cycle" />
+        <item
+            android:id="@+id/nav_medication"
+            android:icon="@drawable/ic_medication"
+            android:title="@string/medication" />
+        <item
+            android:id="@+id/nav_memory"
+            android:icon="@drawable/ic_memory"
+            android:title="@string/memory" />
+        <item
+            android:id="@+id/nav_pedometer"
+            android:icon="@drawable/ic_pedometer"
+            android:title="@string/pedometer" />
+        <item
+            android:id="@+id/nav_heart_rate"
+            android:icon="@drawable/ic_heart_rate"
+            android:title="@string/heart_rate" />
+    </group>
+
+    <!-- add id for separator? -->
+    <group
+        android:id="@+id/nav_section2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about" />
+    </group>
+</menu>

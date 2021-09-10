@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultColorPrimary">#4DD0E1</color>
+    <color name="defaultColorPrimaryDark">#009FAF</color>
+    <color name="defaultColorAccent">#88ffff</color>
+
+    <color name="redColorPrimary">#D32F2F</color>
+    <color name="redColorPrimaryDark">#9A0007</color>
+    <color name="redColorAccent">#FF6659</color>
+
+    <color name="purpleColorPrimary">#7B1FA2</color>
+    <color name="purpleColorPrimaryDark">#4A0072</color>
+    <color name="purpleColorAccent">#AE52D4</color>
+
+    <color name="greenColorPrimary">#00C853</color>
+    <color name="greenColorPrimaryDark">#009624</color>
+    <color name="greenColorAccent">#5EFC82</color>
+
+    <color name="blueColorPrimary">#3D5AFE</color>
+    <color name="blueColorPrimaryDark">#0031CA</color>
+    <color name="blueColorAccent">#8187FF</color>
+
+    <color name="yellowColorPrimary">#FFB300</color>
+    <color name="yellowColorPrimaryDark">#C68400</color>
+    <color name="yellowColorAccent">#FFE54C</color>
+
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    <color name="defaultBackgroundColor">#ededed</color>
+    <color name="defaultTextColor">#505050</color>
+    <color name="highContrastBackgroundColor">#fff</color>
+    <color name="highContrastTextColor">#000000</color>
+</resources>

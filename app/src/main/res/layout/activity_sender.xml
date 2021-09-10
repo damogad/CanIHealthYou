@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?backgroundColor"
+    tools:context=".SenderActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_nfc_sender"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <!--
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="148dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="@string/hint_your_message"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"/>
+    -->
+    <TextView
+        android:id="@+id/tv_out_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="@string/label_your_message"
+        android:textSize="?textAppearanceText"
+        android:textColor="?textColor"/>
+
+    <TextView
+        android:id="@+id/tv_out_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="?textAppearanceTitle"
+        android:textColor="?textColor"
+        tools:text="message"/>
+
+    <ImageView
+        android:id="@+id/recipe_image_nfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_nfc_black_164dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:tint="?attr/colorPrimary"/>
+
+    <TextView
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="?textAppearanceText"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/NFC_Put_Phone"/>
+    <!--
+    <Button
+        android:id="@+id/btn_set_out_message"
+        android:textSize="?textAppearanceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/title_btn_set"
+        />
+        -->
+
+</LinearLayout>

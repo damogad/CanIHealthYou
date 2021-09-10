@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/medication_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MedicationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview_notifications_enabled"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="?textAppearanceText"
+            android:text="@string/Medication_NotificationsEnabledTextView"
+            android:gravity="center"
+            android:visibility="visible"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="?contrastColor"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab_menu"
+        android:hapticFeedbackEnabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        app:fab_addButtonColorNormal="@color/pink"
+        app:fab_addButtonColorPressed="@color/pink_pressed"
+        app:fab_addButtonPlusIconColor="@color/white"
+        app:fab_labelStyle="@style/menu_labels_style" >
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:hapticFeedbackEnabled="true"
+            android:id="@+id/enable_notifications"
+            app:fab_title="@string/Medication_NotificationsEnabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_add_alarm_black_24dp"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:hapticFeedbackEnabled="true"
+            android:id="@+id/disable_notifications"
+            app:fab_title="@string/Medication_NotificationDisabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_alarm_off_black_24dp"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:hapticFeedbackEnabled="true"
+            android:id="@+id/add_medication"
+            app:fab_title="@string/Medication_AddMedication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_add_black_24dp"/>
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    <!--
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/baseline_add_white_36dp"
+        app:layout_anchor="@id/recyclerview_list"
+        app:layout_anchorGravity="bottom|right|end"
+        android:backgroundTint="?contrastColor"/>
+    -->
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

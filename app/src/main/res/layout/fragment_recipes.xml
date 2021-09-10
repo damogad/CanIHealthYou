@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/medication_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RecipesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            android:id="@+id/search_recipes"
+            android:hint="@string/Recipes_SearchHint"
+            android:textSize="?textAppearanceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?textColor"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recipes_recyclerview_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab_menu_recipes"
+        android:hapticFeedbackEnabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        app:fab_addButtonColorNormal="@color/pink"
+        app:fab_addButtonColorPressed="@color/pink_pressed"
+        app:fab_addButtonPlusIconColor="@color/white"
+        app:fab_labelStyle="@style/menu_labels_style" >
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:hapticFeedbackEnabled="true"
+            android:id="@+id/recipes_fab"
+            app:fab_title="@string/Recipes_ImportRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_icons8_qr_code_24"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:hapticFeedbackEnabled="true"
+            android:id="@+id/add_recipe_fab"
+            app:fab_title="@string/Recipes_AddRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_add_black_24dp"/>
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    <!--
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/recipes_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/baseline_add_white_36dp"
+        app:layout_anchor="@id/recipes_recyclerview_list"
+        app:layout_anchorGravity="bottom|right|end"
+        android:backgroundTint="?contrastColor"/>
+    -->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

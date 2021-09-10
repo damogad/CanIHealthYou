@@ -1,0 +1,972 @@
+<resources>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">?textAppearanceButton</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="DefaultAppThemeMediumDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/defaultColorPrimary</item>
+        <item name="colorPrimaryDark">@color/defaultColorPrimaryDark</item>
+        <item name="colorAccent">@color/defaultColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/pink</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+        <!--
+        <item name="android:textAppearanceLarge">@dimen/mediumAppearanceTitle</item>
+        <item name="android:textAppearanceMedium">@dimen/mediumAppearanceText</item>
+        <item name="android:textAppearanceSmall">@dimen/mediumAppearanceButton</item>
+        <item name="colorControlNormal">#2196F3</item>
+        <item name="colorControlActivated">#009688</item>
+        -->
+    </style>
+
+    <style name="DefaultAppThemeMediumDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DefaultAppThemeSmallDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/defaultColorPrimary</item>
+        <item name="colorPrimaryDark">@color/defaultColorPrimaryDark</item>
+        <item name="colorAccent">@color/defaultColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/pink</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="DefaultAppThemeSmallDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DefaultAppThemeLargeDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/defaultColorPrimary</item>
+        <item name="colorPrimaryDark">@color/defaultColorPrimaryDark</item>
+        <item name="colorAccent">@color/defaultColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/pink</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="DefaultAppThemeLargeDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <!-- red -->
+    <style name="RedAppThemeMediumDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/redColorPrimary</item>
+        <item name="colorPrimaryDark">@color/redColorPrimaryDark</item>
+        <item name="colorAccent">@color/redColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+    </style>
+
+    <style name="RedAppThemeMediumDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RedAppThemeSmallDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/redColorPrimary</item>
+        <item name="colorPrimaryDark">@color/redColorPrimaryDark</item>
+        <item name="colorAccent">@color/redColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="RedAppThemeSmallDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RedAppThemeLargeDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/redColorPrimary</item>
+        <item name="colorPrimaryDark">@color/redColorPrimaryDark</item>
+        <item name="colorAccent">@color/redColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="RedAppThemeLargeDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <!-- purple -->
+    <style name="PurpleAppThemeMediumDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purpleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/purpleColorPrimaryDark</item>
+        <item name="colorAccent">@color/purpleColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+    </style>
+
+    <style name="PurpleAppThemeMediumDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PurpleAppThemeSmallDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purpleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/purpleColorPrimaryDark</item>
+        <item name="colorAccent">@color/purpleColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="PurpleAppThemeSmallDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PurpleAppThemeLargeDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purpleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/purpleColorPrimaryDark</item>
+        <item name="colorAccent">@color/purpleColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="PurpleAppThemeLargeDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <!-- green -->
+    <style name="GreenAppThemeMediumDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/greenColorPrimary</item>
+        <item name="colorPrimaryDark">@color/greenColorPrimaryDark</item>
+        <item name="colorAccent">@color/greenColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/purpleColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+    </style>
+
+    <style name="GreenAppThemeMediumDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GreenAppThemeSmallDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/greenColorPrimary</item>
+        <item name="colorPrimaryDark">@color/greenColorPrimaryDark</item>
+        <item name="colorAccent">@color/greenColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/purpleColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="GreenAppThemeSmallDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GreenAppThemeLargeDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/greenColorPrimary</item>
+        <item name="colorPrimaryDark">@color/greenColorPrimaryDark</item>
+        <item name="colorAccent">@color/greenColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/purpleColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="GreenAppThemeLargeDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <!-- blue -->
+    <style name="BlueAppThemeMediumDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/redColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+    </style>
+
+    <style name="BlueAppThemeMediumDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BlueAppThemeSmallDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/redColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="BlueAppThemeSmallDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BlueAppThemeLargeDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/redColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="BlueAppThemeLargeDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <!-- yellow -->
+    <style name="YellowAppThemeMediumDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellowColorPrimary</item>
+        <item name="colorPrimaryDark">@color/yellowColorPrimaryDark</item>
+        <item name="colorAccent">@color/yellowColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/defaultColorPrimaryDark</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+    </style>
+
+    <style name="YellowAppThemeMediumDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="YellowAppThemeSmallDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellowColorPrimary</item>
+        <item name="colorPrimaryDark">@color/yellowColorPrimaryDark</item>
+        <item name="colorAccent">@color/yellowColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/defaultColorPrimaryDark</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="YellowAppThemeSmallDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="YellowAppThemeLargeDefaultContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellowColorPrimary</item>
+        <item name="colorPrimaryDark">@color/yellowColorPrimaryDark</item>
+        <item name="colorAccent">@color/yellowColorAccent</item>
+        <item name="backgroundColor">@color/defaultBackgroundColor</item>
+        <item name="textColor">@color/defaultTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/defaultColorPrimaryDark</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="YellowAppThemeLargeDefaultContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!-- high contrast -->
+    <style name="DefaultAppThemeMediumHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/defaultColorPrimary</item>
+        <item name="colorPrimaryDark">@color/defaultColorPrimaryDark</item>
+        <item name="colorAccent">@color/defaultColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/pink</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+        <!--
+        <item name="android:textAppearanceLarge">@dimen/mediumAppearanceTitle</item>
+        <item name="android:textAppearanceMedium">@dimen/mediumAppearanceText</item>
+        <item name="android:textAppearanceSmall">@dimen/mediumAppearanceButton</item>
+        <item name="colorControlNormal">#2196F3</item>
+        <item name="colorControlActivated">#009688</item>
+        -->
+    </style>
+
+    <style name="DefaultAppThemeMediumHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DefaultAppThemeSmallHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/defaultColorPrimary</item>
+        <item name="colorPrimaryDark">@color/defaultColorPrimaryDark</item>
+        <item name="colorAccent">@color/defaultColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/pink</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="DefaultAppThemeSmallHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DefaultAppThemeLargeHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/defaultColorPrimary</item>
+        <item name="colorPrimaryDark">@color/defaultColorPrimaryDark</item>
+        <item name="colorAccent">@color/defaultColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/pink</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="DefaultAppThemeLargeHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <!-- red -->
+    <style name="RedAppThemeMediumHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/redColorPrimary</item>
+        <item name="colorPrimaryDark">@color/redColorPrimaryDark</item>
+        <item name="colorAccent">@color/redColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+    </style>
+
+    <style name="RedAppThemeMediumHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RedAppThemeSmallHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/redColorPrimary</item>
+        <item name="colorPrimaryDark">@color/redColorPrimaryDark</item>
+        <item name="colorAccent">@color/redColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="RedAppThemeSmallHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RedAppThemeLargeHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/redColorPrimary</item>
+        <item name="colorPrimaryDark">@color/redColorPrimaryDark</item>
+        <item name="colorAccent">@color/redColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="RedAppThemeLargeHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <!-- purple -->
+    <style name="PurpleAppThemeMediumHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purpleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/purpleColorPrimaryDark</item>
+        <item name="colorAccent">@color/purpleColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+    </style>
+
+    <style name="PurpleAppThemeMediumHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PurpleAppThemeSmallHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purpleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/purpleColorPrimaryDark</item>
+        <item name="colorAccent">@color/purpleColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="PurpleAppThemeSmallHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PurpleAppThemeLargeHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purpleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/purpleColorPrimaryDark</item>
+        <item name="colorAccent">@color/purpleColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/blueColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="PurpleAppThemeLargeHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <!-- green -->
+    <style name="GreenAppThemeMediumHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/greenColorPrimary</item>
+        <item name="colorPrimaryDark">@color/greenColorPrimaryDark</item>
+        <item name="colorAccent">@color/greenColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/purpleColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+    </style>
+
+    <style name="GreenAppThemeMediumHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GreenAppThemeSmallHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/greenColorPrimary</item>
+        <item name="colorPrimaryDark">@color/greenColorPrimaryDark</item>
+        <item name="colorAccent">@color/greenColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/purpleColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="GreenAppThemeSmallHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GreenAppThemeLargeHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/greenColorPrimary</item>
+        <item name="colorPrimaryDark">@color/greenColorPrimaryDark</item>
+        <item name="colorAccent">@color/greenColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/purpleColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="GreenAppThemeLargeHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <!-- blue -->
+    <style name="BlueAppThemeMediumHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/redColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+    </style>
+
+    <style name="BlueAppThemeMediumHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BlueAppThemeSmallHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/redColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="BlueAppThemeSmallHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BlueAppThemeLargeHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/redColorAccent</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="BlueAppThemeLargeHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <!-- yellow -->
+    <style name="YellowAppThemeMediumHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellowColorPrimary</item>
+        <item name="colorPrimaryDark">@color/yellowColorPrimaryDark</item>
+        <item name="colorAccent">@color/yellowColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/defaultColorPrimaryDark</item>
+        <item name="textAppearanceTitle">@dimen/mediumAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/mediumAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/mediumAppearanceButton</item>
+
+    </style>
+
+    <style name="YellowAppThemeMediumHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="YellowAppThemeSmallHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellowColorPrimary</item>
+        <item name="colorPrimaryDark">@color/yellowColorPrimaryDark</item>
+        <item name="colorAccent">@color/yellowColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/defaultColorPrimaryDark</item>
+        <item name="textAppearanceTitle">@dimen/smallAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/smallAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/smallAppearanceButton</item>
+
+    </style>
+
+    <style name="YellowAppThemeSmallHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="YellowAppThemeLargeHighContrast" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellowColorPrimary</item>
+        <item name="colorPrimaryDark">@color/yellowColorPrimaryDark</item>
+        <item name="colorAccent">@color/yellowColorAccent</item>
+        <item name="backgroundColor">@color/highContrastBackgroundColor</item>
+        <item name="textColor">@color/highContrastTextColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+
+        <item name="contrastColor">@color/defaultColorPrimaryDark</item>
+        <item name="textAppearanceTitle">@dimen/largeAppearanceTitle</item>
+        <item name="textAppearanceText">@dimen/largeAppearanceText</item>
+        <item name="textAppearanceButton">@dimen/largeAppearanceButton</item>
+
+    </style>
+
+    <style name="YellowAppThemeLargeHighContrast.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="MyDrawer">
+        <item name="android:textSize">?textAppearanceText</item>
+    </style>
+
+
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#A8A19E</item>
+    </style>
+
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@android:color/white</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@android:color/black</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@android:color/black</item>
+    </style>
+
+
+    <style name="success">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">?textAppearanceText</item>
+        <item name="stColorBackground">#008833</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">4dp</item>
+        <item name="stStrokeColor">#fff</item>
+        <item name="stLength">LONG</item>
+        <item name="stRadius">3dp</item>
+    </style>
+
+    <style name="success.short">
+        <item name="stLength">SHORT</item>
+        <item name="stStrokeColor">#000</item>
+    </style>
+
+    <style name="success.black">
+        <item name="stStrokeColor">#000</item>
+    </style>
+
+    <style name="info">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">?textAppearanceTitle</item>
+        <item name="stColorBackground">#0033ee</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">4dp</item>
+        <item name="stStrokeColor">#000</item>
+        <item name="stLength">LONG</item>
+        <item name="stRadius">3dp</item>
+        <item name="stGravity">center</item>
+    </style>
+
+    <style name="error">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#ffffff</item>
+        <item name="stTextSize">?textAppearanceText</item>
+        <item name="stColorBackground">#bb0000</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">4dp</item>
+        <item name="stStrokeColor">#000</item>
+        <item name="stLength">LONG</item>
+        <!--<item name="stGravity">center</item>-->
+        <item name="stRadius">3dp</item>
+    </style>
+
+    <style name="error.short">
+        <item name="stLength">SHORT</item>
+    </style>
+
+    <style name="error.withicon">
+        <item name="stIconStart">@drawable/ic_stop_white_24dp</item>
+    </style>
+
+</resources>
