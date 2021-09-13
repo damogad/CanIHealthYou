@@ -1,4 +1,4 @@
-# CanIHealthYou
+# Can I Health You?
 
 This is an app I developed as part of the Human-Computer Interaction subject (3rd year of the Bachelor’s Degree in Computer Science and Engineering).
 
