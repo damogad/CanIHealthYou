@@ -1,6 +1,6 @@
 # Can I Health You?
 
-This is an app I developed as part of the Human-Computer Interaction subject (3rd year of the Bachelor’s Degree in Computer Science and Engineering).
+This is an app I developed for the Human-Computer Interaction subject (3rd year of the Bachelor’s Degree in Computer Science and Engineering).
 
 The main focus is the interaction, not the functionality (performance can be improved). The following are some screenshots of the app:
 
